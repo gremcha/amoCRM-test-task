@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/amocrm_test_task/static/css/main.c1870199.css",
-    "main.js": "/amocrm_test_task/static/js/main.7e83b214.js",
-    "static/js/787.8679432c.chunk.js": "/amocrm_test_task/static/js/787.8679432c.chunk.js",
-    "static/media/bg-desktop.png": "/amocrm_test_task/static/media/bg-desktop.17999dedbf56ce118a33.png",
-    "static/media/mobile_bg.png": "/amocrm_test_task/static/media/mobile_bg.2aad78b1a59658562541.png",
-    "index.html": "/amocrm_test_task/index.html",
-    "main.c1870199.css.map": "/amocrm_test_task/static/css/main.c1870199.css.map",
-    "main.7e83b214.js.map": "/amocrm_test_task/static/js/main.7e83b214.js.map",
-    "787.8679432c.chunk.js.map": "/amocrm_test_task/static/js/787.8679432c.chunk.js.map"
+    "main.css": "/amoCRM-test-task/static/css/main.25ecd868.css",
+    "main.js": "/amoCRM-test-task/static/js/main.aa3a893b.js",
+    "static/js/787.8679432c.chunk.js": "/amoCRM-test-task/static/js/787.8679432c.chunk.js",
+    "static/media/bg-desktop.png": "/amoCRM-test-task/static/media/bg-desktop.17999dedbf56ce118a33.png",
+    "static/media/mobile_bg.png": "/amoCRM-test-task/static/media/mobile_bg.2aad78b1a59658562541.png",
+    "index.html": "/amoCRM-test-task/index.html",
+    "main.25ecd868.css.map": "/amoCRM-test-task/static/css/main.25ecd868.css.map",
+    "main.aa3a893b.js.map": "/amoCRM-test-task/static/js/main.aa3a893b.js.map",
+    "787.8679432c.chunk.js.map": "/amoCRM-test-task/static/js/787.8679432c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1870199.css",
-    "static/js/main.7e83b214.js"
+    "static/css/main.25ecd868.css",
+    "static/js/main.aa3a893b.js"
   ]
 }
