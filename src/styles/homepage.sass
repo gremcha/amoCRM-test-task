@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap')
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap')
+
+.home-content
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin-top: 5.62rem
+    margin-bottom: 7.75rem
+
+.home-block
+    display: flex
+    flex-direction: column
+
+.right
+    align-items: flex-end
+
+.white-h
+    font-size: 3rem
+    font-weight: 400
+
+.color-h
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%)
+    background-clip: text
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    font-size: 3rem
+    font-weight: 900
+    margin-bottom: 1.87rem
+
+.sub-h
+    font-family: Montserrat
+    font-size: 1.125rem
+    font-weight: 400
+
+.consultation-header
+    text-align: right
+    background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%))
+    background-clip: text
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    font-family: Inter
+    font-size: 1.125rem
+    font-weight: 700
+    letter-spacing: 0.05625rem
+
+.white-text
+    background: var(--light-text, #E4E5EA)
+    -webkit-background-clip: text
+    text-align: right
+    font-family: Inter
+    font-size: 1.125rem
+
+.upspan
+    text-transform: uppercase
+
+.consultation-bonus
+    margin-top: 2.5rem
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-column-gap: 1.94rem
+    grid-row-gap: 1.88rem
+
+.bonus
+    display: flex
+    flex-direction: column
+    text-align: right
+    gap: 0.38rem
+    font-size: 1.125rem
+    white-space: nowrap
+
+.bonus-text
+    font-family: Montserrat
+    font-size: 1rem
+    font-weight: 400
+
+.button
+    width: 16.375rem
+    height: 3.8125rem
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    background: #4077F3
+    margin-top: 3.81rem
+
+.gradient-line
+    width: 10px
+    height: 1px
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%)
+
+@media screen and (max-width: 768px)
+    .home-content
+        background-image: url('/public/mobile_bg.png')
+        background-size: cover
+        flex-direction: column
+        margin: 0
+        padding-bottom: 3.69rem
+        padding-left: 0.88rem
+    .right
+        align-items: flex-start
+    .button
+        display: none
+    .white-h
+        margin-top: 2.5rem
+        font-size: 2.25rem
+    .color-h
+        font-size: 2.25rem
+    .consultation-header
+        text-align: left
+        margin-top: 2.81rem
+    .upspan
+        text-transform: lowercase
+    .bonus-text
+        font-size: 0.8125rem
+        font-weight: 400
+    .bonus
+        flex-direction: row
+        align-items: center
+    .consultation-bonus
+        grid-template-columns: 6.25rem 8.125rem
+        grid-column-gap: 0.62rem
+        grid-row-gap: 0.87rem

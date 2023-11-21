@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2? Family= Montserrat & display=swap");
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: 1.25rem;
+}
+
+.main-info {
+  display: flex;
+  gap: 3.25rem;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--dark-gray, #656566);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.menu-content {
+  display: flex;
+  gap: 3.25rem;
+}
+
+.contacts {
+  align-items: flex-end;
+  gap: 1.25rem;
+  text-align: right;
+}
+
+.messengers {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.625rem;
+}
+
+.legal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 4.375rem;
+  color: var(--light-text, #E4E5EA);
+  font-family: Montserrat, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.underline-text {
+  text-decoration-line: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    background-color: #0E1014;
+    margin-top: 2.56rem;
+    flex-direction: column;
+    padding-left: 0.94rem;
+    justify-content: flex-start;
+    gap: 1.88rem;
+    height: 38.44rem;
+  }
+  .main-info {
+    flex-direction: column;
+    gap: 1.87rem;
+    font-size: 0.875rem;
+  }
+  .menu-content {
+    gap: 3rem;
+  }
+  .contacts {
+    align-items: flex-start;
+  }
+  .block-contacts {
+    gap: 0.5rem;
+  }
+  .legal-info {
+    margin-top: 3.13rem;
+    align-items: flex-start;
+  }
+}/*# sourceMappingURL=footer.css.map */

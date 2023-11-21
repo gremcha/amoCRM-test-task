@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .page {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .page {
+    max-width: 900px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .page {
+    max-width: 700px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page {
+    min-width: 100%;
+  }
+}/*# sourceMappingURL=pages.css.map */

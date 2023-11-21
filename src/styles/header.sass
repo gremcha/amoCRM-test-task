@@ -1,0 +1,70 @@
+
+.header
+    display: flex
+    justify-content: space-between
+    padding-top: 3.625rem
+
+.navbar
+    display: flex
+    gap: 3.25rem
+
+.logo
+    display: flex
+    flex-direction: column
+    gap: 0.625rem
+
+.logo-text
+    color: #E4E5EA
+    font-family: Montserrat
+    font-size: 0.625rem
+    font-weight: 300
+
+.menu
+    display: flex
+    gap: 1.875rem
+    padding-top: 0.25rem
+
+.header-contacts
+    display: flex
+    gap: 3rem
+    padding-top: 0.25rem
+
+.header-messengers
+    display: flex
+    align-items: flex-start
+    justify-content: flex-end
+    gap: 1.875rem
+
+@media screen and (max-width: 1200px)
+    .header-contacts
+        flex-direction: column
+        gap: 0.625rem
+
+@media screen and (max-width: 960px)
+    .header
+        gap: 0
+    .header-contacts
+        display: none
+    .navbar
+        width: 100%
+        justify-content: space-between
+        gap: 0
+
+@media screen and (max-width: 768px)
+    .logo
+        display: none
+    .header
+        background: #0E1014
+        height: 3.4375rem
+        padding: 0
+        font-size: 0.75rem
+
+    .navbar
+        justify-content: center
+        align-items: center
+    .menu
+        gap: 1rem
+        padding: 0
+
+    .not-on-mobile
+        display: none
